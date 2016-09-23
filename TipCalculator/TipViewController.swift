@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
-    @IBOutlet weak var placeHolderLabel: UILabel!
     @IBOutlet weak var resultView: UIView!
     @IBOutlet weak var tipView: UIView!
     
@@ -31,7 +30,6 @@ class ViewController: UIViewController {
         let defaultTipPercent = settings.defaultTipPercentIndex
         tipControl.selectedSegmentIndex = defaultTipPercent
         self.resultView.alpha = 0
-        placeHolderLabel.isHidden = true
         
         tipLabel.numberOfLines = 1
         tipLabel.adjustsFontSizeToFitWidth = true
@@ -112,7 +110,6 @@ class ViewController: UIViewController {
         totalLabel.text = formatter.string(from: NSNumber(value: total))
         
         if !billField.text!.isEmpty {
-            placeHolderLabel.isHidden = true
             UIView.animate(withDuration: 0.4, animations: {
                 self.resultView.alpha = 1
             })
@@ -123,7 +120,6 @@ class ViewController: UIViewController {
             })
         }
         else {
-            placeHolderLabel.isHidden = false
             
             UIView.animate(withDuration: 0.4, animations: {
                 self.resultView.alpha = 0

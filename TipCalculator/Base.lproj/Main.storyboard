@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="3ji-St-2ZU">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="3ji-St-2ZU">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -92,11 +92,6 @@
                                     <constraint firstAttribute="trailing" secondItem="GSN-gR-lNk" secondAttribute="trailing" id="p7s-lg-RPx"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFz-FP-usY">
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="50"/>
-                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -104,12 +99,9 @@
                             <constraint firstItem="z24-Wo-QW9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="1Cs-OW-Ibh"/>
                             <constraint firstItem="Mbn-dz-Pap" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="A8E-YG-J2v"/>
                             <constraint firstItem="Mbn-dz-Pap" firstAttribute="top" secondItem="II1-Ie-D3l" secondAttribute="bottom" constant="100" id="IS7-yL-7gD"/>
-                            <constraint firstItem="JFz-FP-usY" firstAttribute="bottom" secondItem="z24-Wo-QW9" secondAttribute="bottom" id="IZr-cU-KnU"/>
                             <constraint firstAttribute="trailing" secondItem="Mbn-dz-Pap" secondAttribute="trailing" id="NGY-rg-9AB"/>
-                            <constraint firstItem="JFz-FP-usY" firstAttribute="trailing" secondItem="z24-Wo-QW9" secondAttribute="trailing" id="TQX-qc-1Nl"/>
                             <constraint firstItem="z24-Wo-QW9" firstAttribute="top" secondItem="II1-Ie-D3l" secondAttribute="bottom" constant="111" id="dd5-xK-sZa"/>
                             <constraint firstAttribute="trailing" secondItem="z24-Wo-QW9" secondAttribute="trailing" constant="8" id="sOB-uq-mFY"/>
-                            <constraint firstItem="JFz-FP-usY" firstAttribute="top" secondItem="z24-Wo-QW9" secondAttribute="top" id="zuT-XM-XfX"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
@@ -127,7 +119,6 @@
                     <connections>
                         <outlet property="billField" destination="z24-Wo-QW9" id="7X9-F6-lIV"/>
                         <outlet property="cstTopBillField" destination="dd5-xK-sZa" id="1OY-3F-VkW"/>
-                        <outlet property="placeHolderLabel" destination="JFz-FP-usY" id="lwD-8V-eUj"/>
                         <outlet property="resultView" destination="Mbn-dz-Pap" id="2gv-j5-gHD"/>
                         <outlet property="tipControl" destination="140-xK-7YZ" id="wKX-k7-MeR"/>
                         <outlet property="tipLabel" destination="wqw-0y-QaH" id="BO0-I2-8I8"/>
