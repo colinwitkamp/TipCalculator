@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  TipCalculator
 //
-//  Created by Ali Colin Witkamp on 9/5/16.
+//  Created by Colin Witkamp on 9/23/16.
 //  Copyright © 2016 Colin Witkamp. All rights reserved.
 //
 

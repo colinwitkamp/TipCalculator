@@ -2,7 +2,7 @@
 //  SettingsViewController.swift
 //  TipCalculator
 //
-//  Created by Colin Witkamp on 9/15/16.
+//  Created by Colin Witkamp on 9/23/16.
 //  Copyright © 2016 Colin Witkamp. All rights reserved.
 //
 
